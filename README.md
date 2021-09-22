@@ -46,5 +46,4 @@ App running and listening on port 3000!
 
 ## Further development
 
-- move routes from app.js file to their own folder/files
 - improve frontend
