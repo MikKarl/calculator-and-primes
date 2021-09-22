@@ -1,5 +1,5 @@
 {
-  "name": "counter-and-primes",
+  "name": "calculator-and-primes",
   "version": "1.0.0",
   "description": "Application that counts positive numbers and shows if theat number is prime number.\r Install introductions are in folders-",
   "main": "app.js",
