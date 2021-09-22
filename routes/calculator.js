@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 const router = express.Router()
 
 // check if number is prime
@@ -11,11 +10,6 @@ const isPrime = n => {
 
 // localhost:3000/calculator
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/calculator.html'))
-})
-
-// localhost:3000/calculator/answer
-router.get('/answer', (req, res) => {
     const num1 = parseInt(req.query.num1)
     const num2 = parseInt(req.query.num2)
     const answer = num1 + num2

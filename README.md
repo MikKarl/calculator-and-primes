@@ -39,9 +39,7 @@ App running and listening on port 3000!
 ```
 /
 /calculator
-/calculator/answer
-/primes
-/primes/isPrime
+/checkprime
 ```
 
 ## Further development

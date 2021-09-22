@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 const router = express.Router()
 
 // check if number is prime
@@ -9,13 +8,8 @@ const isPrime = n => {
     return n > 1;
 }
 
-// localhost:3000/primes
+// localhost:3000/checkprime
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/primes.html'))
-})
-
-// localhost:3000/primes/isPrime
-router.get('/isPrime', (req, res) => {
     const num = parseInt(req.query.num)
     
     if (isPrime(num) == true) {
@@ -24,7 +18,7 @@ router.get('/isPrime', (req, res) => {
         res.send( "<h1> " + num + " is not prime number")
     }
     
-    console.log('isPrime: ', isPrime(num))
+    console.log('isPrime:', isPrime(num))
 })
 
 module.exports = router
