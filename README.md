@@ -1,21 +1,21 @@
 # Calculator & Primes
 
-Simple app that can calculate numbers and shows if that number is prime number.
+Simple app that can calculate numbers and shows if number is prime number.
 
 ---
 
 Created with [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/).
 
-Front end solution is kept intentionally simple, just so user can test application.
+Frontend solution is kept intentionally simple, just so user can test application.
 
 ---
 
 ## Install and run introductions
 
-- install [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/)
-- clone project: 
+- install [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) if your haven't already
+- clone project repo: 
 ```
-git clone https://github.com/<user>/<repo-name>.git
+git clone https://github.com/MikKarl/calculator-and-primes.git
 ```
 - navigate to project folder
 - install dependencies
@@ -44,8 +44,7 @@ App running and listening on port 3000!
 /primes/isPrime
 ```
 
-## further development
+## Further development
 
-It might be good idea to move routes from app.js file to their indifigual .js files just to keep app.js file cleaner. Use express.Router()
-
-Implement so that application only reseves postitive numbers. at this point inplemented in front end
+- move routes from app.js file to their own folder/files
+- improve frontend
