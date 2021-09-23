@@ -1,13 +1,13 @@
 {
   "name": "calculator-and-primes",
   "version": "1.0.0",
-  "description": "Application that counts positive numbers and shows if theat number is prime number.\r Install introductions are in folders-",
+  "description": "Application that counts positive numbers and shows if the number is prime number.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "MikKarl",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

@@ -26,11 +26,11 @@ npm install
 ```
 node app.js
 ```
-- if everything work as intended you should see message in the terminal
+- if everything work as intended you should see message in the terminal:
 ```
 App running and listening on port 3000!
 ```
-- navigate to http://localhost:3000/ and use the app
+- navigate to http://localhost:3000/ and use the app!
 
 ---
 
@@ -45,3 +45,4 @@ App running and listening on port 3000!
 ## Further development
 
 - improve frontend
+- improve "calculator" endpoint so you can count more numbers
